@@ -5,12 +5,13 @@ import Footer from "../components/Footer";
 import Topbar from "../components/Topbar";
 
 
+
 function Home() {
   return (
     <div className="">
      <Topbar/>
      <Header/>
-    
+     
 
             <div>
                 {/* Start Banner Hero */}
@@ -25,7 +26,7 @@ function Home() {
                             <div className="container">
                                 <div className="row p-5">
                                     <div className="mx-auto col-md-8 col-lg-6 order-lg-last">
-                                        <img className="img-fluid" src="img/herramienta.jpg" alt />
+                                        <img className="img-fluid" src={('img/cemento.jpg')} alt />
                                     </div>
                                     <div className="col-lg-6 mb-0 d-flex align-items-center">
                                         <div className="text-align-left align-self-center">
@@ -46,8 +47,8 @@ function Home() {
                         <div className="carousel-item">
                             <div className="container">
                                 <div className="row p-5">
-                                    <div className="mx-auto col-md-8 col-lg-6 order-lg-last">
-                                        <img className="img-fluid" src="img/piezas.jpg" alt />
+                                    <div className="mx-auto col-md-8 col-lg-6 order-lg-first">
+                                        <img className="img-fluid" src={('img/piezas.jpg')} alt />
                                     </div>
                                     <div className="col-lg-6 mb-0 d-flex align-items-center">
                                         <div className="text-align-left">
@@ -69,7 +70,7 @@ function Home() {
                             <div className="container">
                                 <div className="row p-5">
                                     <div className="mx-auto col-md-8 col-lg-6 order-lg-last">
-                                        <img className="img-fluid" src="img/impermiable.jpg" alt />
+                                        <img className="img-fluid" src={('img/impermiable.jpg')} alt />
                                     </div>
                                     <div className="col-lg-6 mb-0 d-flex align-items-center">
                                         <div className="text-align-left">
@@ -108,29 +109,29 @@ function Home() {
                     </div>
                     <div className="row">
                         <div className="col-12 col-md-3 p-5 mt-3">
-                            <a href="#"><img src="img/category_img_01.jpg" className="rounded-circle img-fluid border" /></a>
-                            <h5 className="text-center mt-3 mb-3">Watches</h5>
-                            <p className="text-center"><a className="btn btn-success">Go Shop</a></p>
+                            <a href="#"><img src={('img/category_img_01.jpg')} className="rounded-circle img-fluid border" /></a>
+                            <h5 className="text-center mt-3 mb-3">Construccion</h5>
+                            <p className="text-center"><a className="btn btn-success">Info</a></p>
                         </div>
                         <div className="col-12 col-md-3 p-5 mt-3">
-                            <a href="#"><img src="img/category_img_01.jpg" className="rounded-circle img-fluid border" /></a>
-                            <h5 className="text-center mt-3 mb-3">Watches</h5>
-                            <p className="text-center"><a className="btn btn-success">Go Shop</a></p>
+                            <a href="#"><img src={('img/impermiable.jpg')} className="rounded-circle img-fluid border" /></a>
+                            <h5 className="text-center mt-3 mb-3">Fontanería</h5>
+                            <p className="text-center"><a className="btn btn-success">Info</a></p>
                         </div>
                         <div className="col-12 col-md-3 p-5 mt-3">
-                            <a href="#"><img src="img/category_img_01.jpg" className="rounded-circle img-fluid border" /></a>
-                            <h5 className="text-center mt-3 mb-3">Watches</h5>
-                            <p className="text-center"><a className="btn btn-success">Go Shop</a></p>
+                            <a href="#"><img src={('img/tubos.jpg')} className="rounded-circle img-fluid border" /></a>
+                            <h5 className="text-center mt-3 mb-3">Acero</h5>
+                            <p className="text-center"><a className="btn btn-success">Info</a></p>
                         </div>
                         <div className="col-12 col-md-3 p-5 mt-3">
-                            <a href="#"><img src="img/category_img_02.jpg" className="rounded-circle img-fluid border" /></a>
-                            <h2 className="h5 text-center mt-3 mb-3">Shoes</h2>
-                            <p className="text-center"><a className="btn btn-success">Go Shop</a></p>
+                            <a href="#"><img src={('img/impermiable.jpg')} className="rounded-circle img-fluid border" /></a>
+                            <h2 className="h5 text-center mt-3 mb-3">Hogar</h2>
+                            <p className="text-center"><a className="btn btn-success">Info</a></p>
                         </div>
                         <div className="col-12 col-md-3 p-5 mt-3">
-                            <a href="#"><img src="img/category_img_03.jpg" className="rounded-circle img-fluid border" /></a>
-                            <h2 className="h5 text-center mt-3 mb-3">Accessories</h2>
-                            <p className="text-center"><a className="btn btn-success">Go Shop</a></p>
+                            <a href="#"><img src={('img/cemento.jpg')} className="rounded-circle img-fluid border" /></a>
+                            <h2 className="h5 text-center mt-3 mb-3">Proteccion</h2>
+                            <p className="text-center"><a className="btn btn-success">Info</a></p>
                         </div>
                     </div>
                 </section>
@@ -149,7 +150,7 @@ function Home() {
                                     </p>
                                 </div>
                                 <div className="col-md-4">
-                                    <img src="img/domicilio.png" style={{width: 400}} alt="About Hero" />
+                                    <img src="img/logos.jpg" style={{width: 400}} alt="Ferremateriales El Bosque" />
                                 </div>
                             </div>
                         </div>

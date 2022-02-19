@@ -1,8 +1,10 @@
 import React from 'react'
+import Whatsapp from './Whatsapp'
 
 export default function Topbar() {
   return (
-  
+  <div>
+  <Whatsapp/>
     <nav className="navbar navbar-expand-lg bg-light navbar-light d-none d-lg-block" id="templatemo_nav_top">
   <div className="container text-light">
     <div className="w-100 d-flex justify-content-between">
@@ -21,7 +23,8 @@ export default function Topbar() {
     </div>
   </div>
 </nav>
-
+  
+</div>
     
   )
 }
